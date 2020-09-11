@@ -1,0 +1,91 @@
+.duan-ct
+	.title-wrapper
+		.main-child
+			color: #666666
+		.social-wrapper
+			display: flex
+			align-items: center
+			justify-content: space-between
+			padding: 10px 0 15px 0
+			@media (min-width: 1025px)
+				padding-bottom: 30px
+			time
+				font-size: 18px
+				color: #999999
+			.social
+				padding: 0
+				display: flex
+				a
+					width: 32px
+					height: 32px
+					background: #e5e5e5
+					border-radius: 50%
+					+flexcenter
+					em
+						color: #999999
+					&:last-child
+						margin-left: 10px
+	.slide-wrapper
+		padding: 30px 0
+		border-top: 2px solid #b7b7b7
+		border-bottom: 2px solid #b7b7b7
+		.swiper-top
+			position: relative
+			.gallery-top
+				.image
+					width: 100%
+					height: 100%
+					img
+						width: 100%
+						height: 100%
+			.swiper-prev,.swiper-next
+				display: none
+				position: absolute
+				top: 50%
+				transform: translateY(-50%)
+				outline: none
+				cursor: pointer
+				em
+					font-size: 30px
+					color: $main
+				@media (min-width: 1025px)
+					display: block
+			.swiper-prev
+				left: -3%
+			.swiper-next
+				right: -3%
+		.gallery-thumbs
+			margin-top: 30px
+			.swiper-slide
+				border: 2px solid rgba(#000,0)
+				.image
+					+img-scale(235/314*100%)
+			.swiper-slide-thumb-active
+				border: 2px solid $main
+	.duan-khac
+		position: relative
+		.time
+			+flexcenter
+			background: $main
+			width: 95px
+			height: 30px
+			margin-left: 30px
+			time
+				color: #fff
+				font-size: 14px
+		.swiper-prev,.swiper-next
+			display: none
+			position: absolute
+			top: 50%
+			transform: translateY(-50%)
+			outline: none
+			cursor: pointer
+			em
+				font-size: 30px
+				color: $main
+			@media (min-width: 1025px)
+				display: block
+		.swiper-prev
+				left: -3%
+		.swiper-next
+			right: -3%

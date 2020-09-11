@@ -1,0 +1,14 @@
+section.home-h7.main-section
+	.container
+		h3.main-title.line.bg Đơn vị đồng hành
+		.doi-tac
+			.swiper-container
+				.swiper-wrapper
+					- for(i=1;i<7;i++)
+						.swiper-slide
+							.item
+								img(src="./img/icon/ic"+i+".png", alt="")
+			.swiper-prev
+				em.mdi.mdi-arrow-left
+			.swiper-next
+				em.mdi.mdi-arrow-right

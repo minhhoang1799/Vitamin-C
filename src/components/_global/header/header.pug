@@ -1,42 +1,50 @@
 header
-    .container
-        .searchbox
-            input(type="text")
-            button(type="submit")
-                em.mdi.mdi-magnify
-        .main-wrap
-            .left-wrap
-                a(href="/")
-                    .logo
-
-            .right-wrap
-                .main-menu
-                    ul.menu
-                        li 
-                            a(href="javacript:void(0)") 
-                                em.material-icons.md-48 face
-                        li 
-                            a(href="javacript:void(0)") 
-                                em.ri-admin-line.ri-fw
-                        li 
-                            a(href="javacript:void(0)") Kai
-                        li 
-                            a(href="javacript:void(0)") Kai
-                        li 
-                            a(href="javacript:void(0)") Kai
-                        li 
-                            a(href="javacript:void(0)") Kai
-                .main-language
-                    .dropdown-toggle
-                        p Tiếng Việt
-                    .dropdown-menu
-                        .item
-                            a(href="javascript:void(0)").dropdown-item English
-                .main-search
-                    .button-search
-                        em.mdi.mdi-magnify
-                .button-hambuger
-                    .burger-bt-inner
-                        span
-    .mobile-wrap
-    .backdrop
+	.container
+		.header-wrapper
+			.left-wrap
+				.logo
+					a(href="/")
+						img(src="./img/logo.png", alt="")
+			.right-wrap
+				.header-top
+					.left-box
+						.main-phone
+							a(href="tel:123456789")
+								em.mdi.mdi-phone
+								span 123 456 789
+						.main-language.dropdown
+							.dropdown-toggle
+								p VN
+								em.mdi.mdi-chevron-down
+							.dropdown-menu
+								.item.active
+									a(href="javascript:void(0);").dropdown-item 
+										span VN
+										em.ri-check-line
+								.item
+									a(href="javascript:void(0);").dropdown-item 
+										span EN 
+					.main-search
+						.search-toggle
+							em.mdi.mdi-magnify
+						.searchbox
+							input(type="text",placeholder='Search')
+							button
+								em.mdi.mdi-magnify
+				.header-main
+					ul.nav
+						li.active
+							a(href="/") trang chủ
+						li
+							a(href="#") giới thiệu
+						li
+							a(href="#") dự án
+						li
+							a(href="#") đóng góp
+						li
+							a(href="#") tin tức
+						li
+							a(href="#") liên hệ
+				.button-toggle
+					.button
+		.mobile-wrapper

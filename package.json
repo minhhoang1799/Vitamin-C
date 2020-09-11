@@ -41,7 +41,7 @@
 		"gulp-typescript": "^5.0.1",
 		"gulp-uglify": "3.0.2",
 		"remixicon": "^2.5.0",
-		"swiper": "^6.0.2",
+		"swiper": "^6.1.2",
 		"vendors": "^1.0.4"
 	}
 }

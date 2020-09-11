@@ -1,0 +1,28 @@
+.home-h7.main-section
+	.doi-tac
+		position: relative
+		.item
+			border: 1px solid #000
+			width: 150px
+			height: 80px
+			+flexcenter
+			@media (min-width: 768px)
+				width: 170px
+				height: 100px
+		.swiper-prev,.swiper-next
+			display: none
+			position: absolute
+			top: 50%
+			transform: translateY(-50%)
+			cursor: pointer
+			outline: none
+			em
+				font-size: 24px
+				color: $main
+		.swiper-prev
+			left: -3%
+		.swiper-next
+			right: -3%
+		@media (min-width: 1025px)
+			.swiper-prev,.swiper-next
+				display: block

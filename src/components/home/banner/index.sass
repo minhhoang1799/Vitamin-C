@@ -1,0 +1,35 @@
+.banner
+	margin-bottom: 30px
+	position: relative
+	.image
+		width: 100%
+		img
+			width: 100%
+			&:first-child
+				display: none
+			@media (min-width: 768px)
+				&:first-child
+					display: block
+				&:last-child
+					display: none
+	.content-banner
+		padding: 30px 15px
+		background: #c4a998
+		p
+			color: #fff
+			font-weight: 300
+			font-size: 18px
+		@media (min-width: 768px)
+			position: absolute
+			background: none
+			padding: 0
+			top: 50%
+			left: 5%
+			transform: translateY(-50%)
+			width: 33.33%
+		@media (min-width: 1025px)
+			left: 65px
+			width: calc(33.33%-30px)
+			p
+				font-size: 30px
+

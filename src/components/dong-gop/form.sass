@@ -1,0 +1,58 @@
+.form
+	.wrap-form
+		@media (min-width: 768px)
+			display: flex
+			flex-wrap: wrap
+		.form-group
+			margin-top: 30px
+			@media (min-width: 768px)
+				flex: 0 0 50%
+				max-width: calc(50%-10px)
+			label
+				font-size: 18px
+				color: #666666
+				span
+					color: #666666
+					margin-left: 5px
+			textarea
+				width: 100%
+				height: 200px
+				background: #f2f2f2
+				border-radius: 25px
+				padding: 15px 20px
+				margin-top: 20px
+			input
+				width: 100%
+				height: 50px
+				background: #f2f2f2
+				border-radius: 22.5px
+				padding: 0 20px
+				margin-top: 20px
+				outline: none
+			.button
+				button
+					text-transform: uppercase
+					width: 210px
+					height: 50px
+					border: none
+					border-radius: 25px
+					background: $main
+					color: #fff
+			@media (min-width: 768px)
+				&:nth-child(odd)
+					margin-right: 10px
+				&:nth-child(even)
+					margin-left: 10px
+			&.content
+				@media (min-width: 768px)
+					flex: 0 0 100%
+					max-width: 100%
+			&.button-wrapper
+				display: flex
+				align-items: center
+				justify-content: center
+				@media (min-width: 768px)
+					flex: 0 0 100%
+					max-width: 100%
+					justify-content: flex-start
+
