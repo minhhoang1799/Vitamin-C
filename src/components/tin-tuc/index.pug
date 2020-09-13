@@ -1,0 +1,30 @@
+seciotn.tintuc-ds.main-section
+	.container
+		h3.main-title.line.bg tin tức
+		.main-tab(data-toggle="tabslet")
+			.nav-news
+				.moblie-list
+					.content 
+						p Danh sách tin tức
+						em.mdi.mdi-chevron-down
+				ul.tabslet-tab
+					li 
+						a(href="#tab-1") Tin tức
+					li 
+						a(href="#tab-2") Tin hoạt động hội
+					li 
+						a(href="#tab-3") Sự kiện
+			.tabslet-content(id="tab-1").active
+				.row
+					- for(i=1;i<10;i++)
+						.col-lg-3.col-sm-6
+							.item-news
+								.image-child
+									img(src="./img/home/7.png", alt="")
+									.time
+										time 24/02/2018
+								.content
+									a.title(href="#") Mẹ của hàng trăm trẻ mồ côi và khuyết tật: 'Nhiều người nói Tim bị điên'
+									p Dù bị cho là điên, là bao đồng nhưng 26 năm qua, cô gái người Thụy Sĩ có tên Việt là Hoàng Nữ Ngọc Tim vẫn âm thầm trên hành trình gắn bó, cưu mang hàng trăm trẻ mồ côi, khuyết tật.
+			.tabslet-content(id="tab-2")
+			.tabslet-content(id="tab-3")

@@ -1,0 +1,102 @@
+section.gioi-thieu.main-section
+	.container
+		.about-wrapper
+			.row.wrapper
+				.col-md-7
+					h3.main-title.line Giới thiệu dự án
+					.content
+						p Quỹ Vitamin C ra đời sau cuộc trò chuyện của Vân và Vĩ Lâm về tác hại khôn lường của chất độc da cam. Với những mối liên hệ mà gia đình đang có, hai chị em tin rằng họ có thể làm điều gì đó để thay đổi cuộc sống của những người tàn tật khắp Việt Nam. 
+						p Tháng 9/2019, Vitamin C thực hiện chuyến viếng thăm đầu tiên tại Tp. Hồ Chí Minh: Trung tâm Nuôi dưỡng Bảo trợ trẻ em Gò Vấp và Trung tâm Bảo trợ Trẻ em Tàn tật Mồ côi Thị Nghè. 
+					//- .btn-wrapper
+					//- 	a.view-more(href="#") Xem thêm
+				.col-md-5
+					.image
+						img(src="./img/home/1.png", alt="")
+		.tam-nhin
+			h3.main-title.line.bg Tầm nhìn - sứ mệnh
+			.row
+				.col-xl-6
+					.item-vitaminC
+						.icon
+							img(src="./img/icon/1.png", alt="")
+						.content
+							h3.main-child Tầm nhìn
+							p Khép lại quá khứ, hướng đến tương lai - chúng tôi giúp đỡ người tàn tật có cuộc sống tốt đẹp hơn. Xuất phát điểm của dự án, chúng tôi tập trung vào các nạn nhân của chất độc da cam. Tuy nhiên, sau khi đến thăm một số trại trẻ mồ côi, chúng tôi nhận thấy không chỉ trẻ em mà còn nhiều hoàn cảnh đáng thương khác nữa. 
+				.col-xl-6
+					.item-vitaminC
+						.icon
+							img(src="./img/icon/3.png", alt="")
+						.content
+							h3.main-child Sứ mệnh
+							p Giờ đây Vitamin C là một tổ chức do sinh viên lãnh đạo, chuyên cải thiện cuộc sống của người khuyết tât bao gồm nạn nhân của chất độc da cam tại Việt Nam. Chúng tôi hợp tác với những tổ chức có uy tín để cung cấp các phương pháp điều trị, thiết bị y tế, vật lý trị liêu và giáo dục đặc biệt cho những hoàn cảnh không có điều kiện được chăm sóc tốt. 
+		.dai-su.main-section
+			h3.main-title.line.bg Đại sứ
+			.slide-wrapper
+				.swiper-container
+					.swiper-wrapper
+						- for(i=0;i<4;i++)
+							.swiper-slide
+								a(href="#").item
+									.image
+										img(src="./img/about/1.png", alt="")
+									.content
+										h3.name Quinn Shephard
+										p Điều phối viên
+				.swiper-prev
+					em.mdi.mdi-arrow-left
+				.swiper-next
+					em.mdi.mdi-arrow-right
+		.co-van.main-section
+			h3.main-title.line.bg Hội đồng cố vấn
+			.row
+				.col-lg-6
+					a(href="#").item
+						.image
+							img(src="./img/about/1.png", alt="")
+						.content
+							h3.name Quinn Shephard
+							p Điều phối viên
+				.col-lg-6
+					a(href="#").item
+						.image
+							img(src="./img/about/1.png", alt="")
+						.content
+							h3.name Quinn Shephard
+							p Điều phối viên
+		.giayphep.main-section
+			h3.main-title.line.bg Giấy phép - Bằng khen
+			.main-tab(data-toggle="tabslet")
+				ul.tabslet-tab
+					li 
+						a(href="#tab-1") Giấy phép
+					li
+						a(href="#tab-2") Bằng khen
+				.tabslet-content(id="tab-1")
+				.tabslet-content(id="tab-2").active
+					.slide-wrapper
+						.swiper-container
+							.swiper-wrapper
+								.swiper-slide
+									a(href="#").item
+										.image
+											img(src="./img/giay-phep/1.png", alt="")
+										p.desc Bằng khen chứng nhận tấm lòng vàng
+								.swiper-slide
+									a(href="#").item
+										.image
+											img(src="./img/giay-phep/1.png", alt="")
+										p.desc Bằng khen chứng nhận tấm lòng vàng
+								.swiper-slide
+									a(href="#").item
+										.image
+											img(src="./img/giay-phep/1.png", alt="")
+										p.desc Bằng khen chứng nhận tấm lòng vàng
+								.swiper-slide
+									a(href="#").item
+										.image
+											img(src="./img/giay-phep/1.png", alt="")
+										p.desc Bằng khen chứng nhận tấm lòng vàng
+						.swiper-prev
+							em.mdi.mdi-arrow-left
+						.swiper-next
+							em.mdi.mdi-arrow-right

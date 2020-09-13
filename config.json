@@ -12,9 +12,10 @@
         "bower_components/cropperjs/dist/cropper.min.js",
         "node_modules/swiper/swiper-bundle.min.js",
         "bower_components/jssocials/dist/jssocials.js",
-        "bower_components/vivus/dist/vivus.min.js",
         "src/_plugins/ls.unveilhooks.min.js",
         "src/_plugins/mapping.js",
+        "src/_plugins/tabslet.js",
+        "bower_components/vivus/dist/vivus.min.js",
         "bower_components/fancybox/dist/jquery.fancybox.min.js",
         "bower_components/jssocials/dist/jssocials.min.js",
         "bower_components/vanilla-lazyload/dist/lazyload.min.js"
