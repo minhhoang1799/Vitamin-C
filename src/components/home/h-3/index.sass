@@ -1,8 +1,8 @@
 .du-an-ds
 	.item
 		.image
+			border: 2px solid rgba($main,0)
 			+img-scale(230/395*100%)
-			
 		.content
 			text-align: center
 			margin-top: 15px
@@ -11,15 +11,19 @@
 				text-transform: uppercase
 				font-weight: 500
 		@media (min-width: 1025px)
+			margin-bottom: 30px
 			.image
 				overflow: hidden
 				img
 					transition: all ease-in-out .4s
 			&:hover
 				.image
+					border: 2px solid $main
 					img
 						transform: scale(1.1)
 				.content
 					a
 						color: $main
-
+.home-3
+	@media (min-width: 1025px)
+		padding-bottom: 0

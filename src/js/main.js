@@ -187,6 +187,8 @@ function bannerHomeSlide() {
 		spaceBetween: 20,
 		speed: 500,
 		loop: true,
+		observer: true,
+		observeParents: true,
 		navigation: {
 			nextEl: '.slide-wrapper .swiper-next',
 			prevEl: '.slide-wrapper .swiper-prev',
